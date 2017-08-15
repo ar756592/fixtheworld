@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA47EF1F1F42AA9800219F4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47EF1E1F42AA9800219F4F /* AppDelegate.swift */; };
+		EA47EF211F42AA9800219F4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47EF201F42AA9800219F4F /* ViewController.swift */; };
+		EA47EF241F42AA9800219F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA47EF221F42AA9800219F4F /* Main.storyboard */; };
+		EA47EF261F42AA9800219F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA47EF251F42AA9800219F4F /* Assets.xcassets */; };
+		EA47EF291F42AA9800219F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA47EF271F42AA9800219F4F /* LaunchScreen.storyboard */; };
+		EA47EF341F42AA9900219F4F /* FixTheWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47EF331F42AA9900219F4F /* FixTheWorldTests.swift */; };
+		EA47EF3F1F42AA9900219F4F /* FixTheWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47EF3E1F42AA9900219F4F /* FixTheWorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA47EF301F42AA9900219F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA47EF131F42AA9800219F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA47EF1A1F42AA9800219F4F;
+			remoteInfo = FixTheWorld;
+		};
+		EA47EF3B1F42AA9900219F4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA47EF131F42AA9800219F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA47EF1A1F42AA9800219F4F;
+			remoteInfo = FixTheWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA47EF1B1F42AA9800219F4F /* FixTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FixTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA47EF1E1F42AA9800219F4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA47EF201F42AA9800219F4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA47EF231F42AA9800219F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA47EF251F42AA9800219F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA47EF281F42AA9800219F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA47EF2A1F42AA9900219F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA47EF2F1F42AA9900219F4F /* FixTheWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixTheWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA47EF331F42AA9900219F4F /* FixTheWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixTheWorldTests.swift; sourceTree = "<group>"; };
+		EA47EF351F42AA9900219F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA47EF3A1F42AA9900219F4F /* FixTheWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixTheWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA47EF3E1F42AA9900219F4F /* FixTheWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixTheWorldUITests.swift; sourceTree = "<group>"; };
+		EA47EF401F42AA9900219F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA47EF181F42AA9800219F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA47EF2C1F42AA9900219F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA47EF371F42AA9900219F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA47EF121F42AA9800219F4F = {
+			isa = PBXGroup;
+			children = (
+				EA47EF1D1F42AA9800219F4F /* FixTheWorld */,
+				EA47EF321F42AA9900219F4F /* FixTheWorldTests */,
+				EA47EF3D1F42AA9900219F4F /* FixTheWorldUITests */,
+				EA47EF1C1F42AA9800219F4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA47EF1C1F42AA9800219F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA47EF1B1F42AA9800219F4F /* FixTheWorld.app */,
+				EA47EF2F1F42AA9900219F4F /* FixTheWorldTests.xctest */,
+				EA47EF3A1F42AA9900219F4F /* FixTheWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA47EF1D1F42AA9800219F4F /* FixTheWorld */ = {
+			isa = PBXGroup;
+			children = (
+				EA47EF1E1F42AA9800219F4F /* AppDelegate.swift */,
+				EA47EF201F42AA9800219F4F /* ViewController.swift */,
+				EA47EF221F42AA9800219F4F /* Main.storyboard */,
+				EA47EF251F42AA9800219F4F /* Assets.xcassets */,
+				EA47EF271F42AA9800219F4F /* LaunchScreen.storyboard */,
+				EA47EF2A1F42AA9900219F4F /* Info.plist */,
+			);
+			path = FixTheWorld;
+			sourceTree = "<group>";
+		};
+		EA47EF321F42AA9900219F4F /* FixTheWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA47EF331F42AA9900219F4F /* FixTheWorldTests.swift */,
+				EA47EF351F42AA9900219F4F /* Info.plist */,
+			);
+			path = FixTheWorldTests;
+			sourceTree = "<group>";
+		};
+		EA47EF3D1F42AA9900219F4F /* FixTheWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA47EF3E1F42AA9900219F4F /* FixTheWorldUITests.swift */,
+				EA47EF401F42AA9900219F4F /* Info.plist */,
+			);
+			path = FixTheWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA47EF1A1F42AA9800219F4F /* FixTheWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA47EF431F42AA9900219F4F /* Build configuration list for PBXNativeTarget "FixTheWorld" */;
+			buildPhases = (
+				EA47EF171F42AA9800219F4F /* Sources */,
+				EA47EF181F42AA9800219F4F /* Frameworks */,
+				EA47EF191F42AA9800219F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FixTheWorld;
+			productName = FixTheWorld;
+			productReference = EA47EF1B1F42AA9800219F4F /* FixTheWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA47EF2E1F42AA9900219F4F /* FixTheWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA47EF461F42AA9900219F4F /* Build configuration list for PBXNativeTarget "FixTheWorldTests" */;
+			buildPhases = (
+				EA47EF2B1F42AA9900219F4F /* Sources */,
+				EA47EF2C1F42AA9900219F4F /* Frameworks */,
+				EA47EF2D1F42AA9900219F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA47EF311F42AA9900219F4F /* PBXTargetDependency */,
+			);
+			name = FixTheWorldTests;
+			productName = FixTheWorldTests;
+			productReference = EA47EF2F1F42AA9900219F4F /* FixTheWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA47EF391F42AA9900219F4F /* FixTheWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA47EF491F42AA9900219F4F /* Build configuration list for PBXNativeTarget "FixTheWorldUITests" */;
+			buildPhases = (
+				EA47EF361F42AA9900219F4F /* Sources */,
+				EA47EF371F42AA9900219F4F /* Frameworks */,
+				EA47EF381F42AA9900219F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA47EF3C1F42AA9900219F4F /* PBXTargetDependency */,
+			);
+			name = FixTheWorldUITests;
+			productName = FixTheWorldUITests;
+			productReference = EA47EF3A1F42AA9900219F4F /* FixTheWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA47EF131F42AA9800219F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anthony Russell";
+				TargetAttributes = {
+					EA47EF1A1F42AA9800219F4F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2RE9R4KJEJ;
+						ProvisioningStyle = Automatic;
+					};
+					EA47EF2E1F42AA9900219F4F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2RE9R4KJEJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA47EF1A1F42AA9800219F4F;
+					};
+					EA47EF391F42AA9900219F4F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2RE9R4KJEJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA47EF1A1F42AA9800219F4F;
+					};
+				};
+			};
+			buildConfigurationList = EA47EF161F42AA9800219F4F /* Build configuration list for PBXProject "FixTheWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA47EF121F42AA9800219F4F;
+			productRefGroup = EA47EF1C1F42AA9800219F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA47EF1A1F42AA9800219F4F /* FixTheWorld */,
+				EA47EF2E1F42AA9900219F4F /* FixTheWorldTests */,
+				EA47EF391F42AA9900219F4F /* FixTheWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA47EF191F42AA9800219F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA47EF291F42AA9800219F4F /* LaunchScreen.storyboard in Resources */,
+				EA47EF261F42AA9800219F4F /* Assets.xcassets in Resources */,
+				EA47EF241F42AA9800219F4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA47EF2D1F42AA9900219F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA47EF381F42AA9900219F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA47EF171F42AA9800219F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA47EF211F42AA9800219F4F /* ViewController.swift in Sources */,
+				EA47EF1F1F42AA9800219F4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA47EF2B1F42AA9900219F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA47EF341F42AA9900219F4F /* FixTheWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA47EF361F42AA9900219F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA47EF3F1F42AA9900219F4F /* FixTheWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA47EF311F42AA9900219F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA47EF1A1F42AA9800219F4F /* FixTheWorld */;
+			targetProxy = EA47EF301F42AA9900219F4F /* PBXContainerItemProxy */;
+		};
+		EA47EF3C1F42AA9900219F4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA47EF1A1F42AA9800219F4F /* FixTheWorld */;
+			targetProxy = EA47EF3B1F42AA9900219F4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA47EF221F42AA9800219F4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA47EF231F42AA9800219F4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA47EF271F42AA9800219F4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA47EF281F42AA9800219F4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA47EF411F42AA9900219F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA47EF421F42AA9900219F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA47EF441F42AA9900219F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2RE9R4KJEJ;
+				INFOPLIST_FILE = FixTheWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iRuss.com.FixTheWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA47EF451F42AA9900219F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2RE9R4KJEJ;
+				INFOPLIST_FILE = FixTheWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iRuss.com.FixTheWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA47EF471F42AA9900219F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2RE9R4KJEJ;
+				INFOPLIST_FILE = FixTheWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iRuss.com.FixTheWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FixTheWorld.app/FixTheWorld";
+			};
+			name = Debug;
+		};
+		EA47EF481F42AA9900219F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2RE9R4KJEJ;
+				INFOPLIST_FILE = FixTheWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iRuss.com.FixTheWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FixTheWorld.app/FixTheWorld";
+			};
+			name = Release;
+		};
+		EA47EF4A1F42AA9900219F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2RE9R4KJEJ;
+				INFOPLIST_FILE = FixTheWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iRuss.com.FixTheWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FixTheWorld;
+			};
+			name = Debug;
+		};
+		EA47EF4B1F42AA9900219F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2RE9R4KJEJ;
+				INFOPLIST_FILE = FixTheWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iRuss.com.FixTheWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FixTheWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA47EF161F42AA9800219F4F /* Build configuration list for PBXProject "FixTheWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA47EF411F42AA9900219F4F /* Debug */,
+				EA47EF421F42AA9900219F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA47EF431F42AA9900219F4F /* Build configuration list for PBXNativeTarget "FixTheWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA47EF441F42AA9900219F4F /* Debug */,
+				EA47EF451F42AA9900219F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA47EF461F42AA9900219F4F /* Build configuration list for PBXNativeTarget "FixTheWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA47EF471F42AA9900219F4F /* Debug */,
+				EA47EF481F42AA9900219F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA47EF491F42AA9900219F4F /* Build configuration list for PBXNativeTarget "FixTheWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA47EF4A1F42AA9900219F4F /* Debug */,
+				EA47EF4B1F42AA9900219F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA47EF131F42AA9800219F4F /* Project object */;
+}
